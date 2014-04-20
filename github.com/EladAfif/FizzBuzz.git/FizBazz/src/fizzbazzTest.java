@@ -54,6 +54,7 @@ public class fizzbazzTest {
 	@Test
 	public void testIsFizzBuzz() 
 	{
+		fizz.isFizzBuzz();
 		int i;
 		for (i = 0 ; i < 100 ; i++)
 		{
@@ -65,6 +66,7 @@ public class fizzbazzTest {
 					System.out.println(fizz.a[i]);
 		}
 	}
+	
 	
 		
 	
