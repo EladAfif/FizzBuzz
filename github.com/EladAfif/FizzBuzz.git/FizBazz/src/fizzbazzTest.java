@@ -51,6 +51,21 @@ public class fizzbazzTest {
 		}
 	}
 	
+	@Test
+	public void testIsFizzBuzz() 
+	{
+		int i;
+		for (i = 0 ; i < 100 ; i++)
+		{
+			if(i%5 == 0 && i%3 == 0)
+			//System.out.println(fizz.a[i]);
+				if(fizz.a[i] != "FizzBuzz")
+					fail();
+				else 
+					System.out.println(fizz.a[i]);
+		}
+	}
+	
 		
 	
 
