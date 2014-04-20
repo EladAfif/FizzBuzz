@@ -35,6 +35,22 @@ public class fizzbazzTest {
 		}
 	}
 	
+	@Test
+	public void testIsBuzz() 
+	{
+		fizz.isFizz();
+		int i;
+		for (i = 0 ; i < 100 ; i++)
+		{
+			if(i%5 == 0)
+			//System.out.println(fizz.a[i]);
+				if(fizz.a[i] != "Buzz")
+					fail();
+				else 
+					System.out.println(fizz.a[i]);
+		}
+	}
+	
 		
 	
 
