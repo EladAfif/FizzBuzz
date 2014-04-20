@@ -31,5 +31,15 @@ public class fizzbazz {
 		}
 	}
 	
+	public void isBuzz()
+	{
+		int i;
+		for (i = 0 ; i < 100 ; i++)
+		{
+			if(i % 5 == 0)
+				a[i] = "Buzz";
+		}
+	}
+	
 	
 }

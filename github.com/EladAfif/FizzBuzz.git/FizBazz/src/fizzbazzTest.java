@@ -38,7 +38,7 @@ public class fizzbazzTest {
 	@Test
 	public void testIsBuzz() 
 	{
-		fizz.isFizz();
+		fizz.isBuzz();
 		int i;
 		for (i = 0 ; i < 100 ; i++)
 		{
