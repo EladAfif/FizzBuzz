@@ -7,7 +7,8 @@ public class fizzbazzTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		
 		
 	}
 
