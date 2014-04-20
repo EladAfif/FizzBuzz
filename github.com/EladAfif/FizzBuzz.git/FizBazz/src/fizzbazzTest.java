@@ -8,7 +8,7 @@ public class fizzbazzTest {
 	fizzbazz fizz = new fizzbazz();
 	@Test
 	public void testInit() {
-		//fizz.initArray();
+		fizz.initArray();
 		int i;
 		for (i = 0 ; i < 100 ; i++)
 		{
