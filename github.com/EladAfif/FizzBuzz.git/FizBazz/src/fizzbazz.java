@@ -1,3 +1,5 @@
+import static org.junit.Assert.fail;
+
 
 
 public class fizzbazz {
@@ -19,6 +21,15 @@ public class fizzbazz {
 		}
 	}
 	
+	public void isFizz()
+	{
+		int i;
+		for (i = 0 ; i < 100 ; i++)
+		{
+			if(i%3 == 0)
+				a[i] = "Fizz";
+		}
+	}
 	
 	
 }
