@@ -22,7 +22,7 @@ public class fizzbazzTest {
 	@Test
 	public void testIsFizz() 
 	{
-		//fizz.isFizz();
+		fizz.isFizz();
 		int i;
 		for (i = 0 ; i < 100 ; i++)
 		{
